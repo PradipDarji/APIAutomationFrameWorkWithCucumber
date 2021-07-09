@@ -1,0 +1,120 @@
+Request method:	POST
+Request URI:	http://api.openweathermap.org/data/3.0/stations?appid=23caf61b1810b14c888eb2897a2497f9
+Proxy:			<none>
+Request params:	<none>
+Query params:	appid=23caf61b1810b14c888eb2897a2497f9
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "altitude": 150,
+    "external_id": "SF_TEST001",
+    "name": "vinav",
+    "latitude": 0.0,
+    "longitude": 32.67
+}
+HTTP/1.1 201 Created
+Server: openresty
+Date: Thu, 08 Jul 2021 17:04:17 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 276
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+
+{
+    "ID": "60e7301109e7430001b9f61b",
+    "updated_at": "2021-07-08T17:04:17.991730822Z",
+    "created_at": "2021-07-08T17:04:17.991730669Z",
+    "user_id": "601446a5c8e1ae0007f4aaf2",
+    "external_id": "SF_TEST001",
+    "name": "vinav",
+    "latitude": 0,
+    "longitude": 32.67,
+    "altitude": 150,
+    "rank": 10,
+    "source_type": 5
+}
+Request method:	GET
+Request URI:	http://api.openweathermap.org/data/3.0/stations/60e7301109e7430001b9f61b?appid=23caf61b1810b14c888eb2897a2497f9
+Proxy:			<none>
+Request params:	<none>
+Query params:	appid=23caf61b1810b14c888eb2897a2497f9
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: openresty
+Date: Thu, 08 Jul 2021 17:04:19 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 211
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+
+{
+    "id": "60e7301109e7430001b9f61b",
+    "created_at": "2021-07-08T17:04:17.991Z",
+    "updated_at": "2021-07-08T17:04:17.991Z",
+    "external_id": "SF_TEST001",
+    "name": "vinav",
+    "longitude": 32.67,
+    "latitude": 0,
+    "altitude": 150,
+    "rank": 10
+}
+Request method:	DELETE
+Request URI:	http://api.openweathermap.org/data/3.0/stations/60e7301109e7430001b9f61b?appid=23caf61b1810b14c888eb2897a2497f9
+Proxy:			<none>
+Request params:	<none>
+Query params:	appid=23caf61b1810b14c888eb2897a2497f9
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Server: openresty
+Date: Thu, 08 Jul 2021 17:04:20 GMT
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+Request method:	DELETE
+Request URI:	http://api.openweathermap.org/data/3.0/stations/60e7301109e7430001b9f61b?appid=23caf61b1810b14c888eb2897a2497f9
+Proxy:			<none>
+Request params:	<none>
+Query params:	appid=23caf61b1810b14c888eb2897a2497f9
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Server: openresty
+Date: Thu, 08 Jul 2021 17:04:20 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 45
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+
+{
+    "code": 404001,
+    "message": "Station not found"
+}
