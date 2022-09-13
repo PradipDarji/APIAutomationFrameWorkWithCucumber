@@ -37,7 +37,7 @@ public void add_Place_Station_with(String name, String ExternalId) throws IOExce
 	    // Write code here that turns the phrase above into concrete actions
 	
 		 
-		 res=given().spec(requestSpecification())
+		 res=given().log().all().spec(requestSpecification())
 		.body(data.addPlacePayLoad(name,ExternalId));
 	}
 
@@ -52,12 +52,12 @@ public void user_calls_with_http_request(String resource, String method) {
 		resspec =new ResponseSpecBuilder().expectStatusCode(201).expectContentType(ContentType.JSON).build();
 		
 		if(method.equalsIgnoreCase("POST"))
-		 response =res.when().post(resourceAPI.getResource());
+		 response =res.when().log().all().post(resourceAPI.getResource());
 		else if(method.equalsIgnoreCase("GET"))
-			 response =res.when().get(resourceAPI.getResource()+id);
+			 response =res.when().log().all().get(resourceAPI.getResource()+id);
 		
 		else if(method.equalsIgnoreCase("DELETE"))
-			response = res.when().delete(resourceAPI.getResource()+id);
+			response = res.when().log().all().delete(resourceAPI.getResource()+id);
 		
 }
 
@@ -76,7 +76,7 @@ public void user_calls_with_http_request(String resource, String method) {
 	   // requestSpec
 		  System.out.println(response);
 		 id=getJsonPath(response,"ID");
-		 res=given().spec(requestSpecification());
+		 res=given().log().all().spec(requestSpecification());
 		 user_calls_with_http_request(resource,"GET");
 		  String actualName=getJsonPath(response,"name");
 		  assertEquals(actualName,expectedName);

@@ -24,6 +24,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Dell/Downloads/cucumber-reporting-5.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pradip/Downloads/cucumber-reporting-5.6.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

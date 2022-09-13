@@ -19,18 +19,18 @@ Body:
 }
 HTTP/1.1 201 Created
 Server: openresty
-Date: Thu, 08 Jul 2021 17:04:17 GMT
+Date: Tue, 13 Sep 2022 17:43:11 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 276
+Content-Length: 275
 Connection: keep-alive
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Methods: GET, POST, PUT, DELETE
 
 {
-    "ID": "60e7301109e7430001b9f61b",
-    "updated_at": "2021-07-08T17:04:17.991730822Z",
-    "created_at": "2021-07-08T17:04:17.991730669Z",
+    "ID": "6320c12f8885c20001767ca5",
+    "updated_at": "2022-09-13T17:43:11.724296809Z",
+    "created_at": "2022-09-13T17:43:11.72429668Z",
     "user_id": "601446a5c8e1ae0007f4aaf2",
     "external_id": "SF_TEST001",
     "name": "vinav",
@@ -41,7 +41,7 @@ Access-Control-Allow-Methods: GET, POST, PUT, DELETE
     "source_type": 5
 }
 Request method:	GET
-Request URI:	http://api.openweathermap.org/data/3.0/stations/60e7301109e7430001b9f61b?appid=23caf61b1810b14c888eb2897a2497f9
+Request URI:	http://api.openweathermap.org/data/3.0/stations/6320c12f8885c20001767ca5?appid=23caf61b1810b14c888eb2897a2497f9
 Proxy:			<none>
 Request params:	<none>
 Query params:	appid=23caf61b1810b14c888eb2897a2497f9
@@ -54,7 +54,7 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
 Server: openresty
-Date: Thu, 08 Jul 2021 17:04:19 GMT
+Date: Tue, 13 Sep 2022 17:43:13 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 211
 Connection: keep-alive
@@ -63,9 +63,9 @@ Access-Control-Allow-Credentials: true
 Access-Control-Allow-Methods: GET, POST, PUT, DELETE
 
 {
-    "id": "60e7301109e7430001b9f61b",
-    "created_at": "2021-07-08T17:04:17.991Z",
-    "updated_at": "2021-07-08T17:04:17.991Z",
+    "id": "6320c12f8885c20001767ca5",
+    "created_at": "2022-09-13T17:43:11.724Z",
+    "updated_at": "2022-09-13T17:43:11.724Z",
     "external_id": "SF_TEST001",
     "name": "vinav",
     "longitude": 32.67,
@@ -74,7 +74,7 @@ Access-Control-Allow-Methods: GET, POST, PUT, DELETE
     "rank": 10
 }
 Request method:	DELETE
-Request URI:	http://api.openweathermap.org/data/3.0/stations/60e7301109e7430001b9f61b?appid=23caf61b1810b14c888eb2897a2497f9
+Request URI:	http://api.openweathermap.org/data/3.0/stations/6320c12f8885c20001767ca5?appid=23caf61b1810b14c888eb2897a2497f9
 Proxy:			<none>
 Request params:	<none>
 Query params:	appid=23caf61b1810b14c888eb2897a2497f9
@@ -87,13 +87,13 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 204 No Content
 Server: openresty
-Date: Thu, 08 Jul 2021 17:04:20 GMT
+Date: Tue, 13 Sep 2022 17:43:14 GMT
 Connection: keep-alive
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Methods: GET, POST, PUT, DELETE
 Request method:	DELETE
-Request URI:	http://api.openweathermap.org/data/3.0/stations/60e7301109e7430001b9f61b?appid=23caf61b1810b14c888eb2897a2497f9
+Request URI:	http://api.openweathermap.org/data/3.0/stations/6320c12f8885c20001767ca5?appid=23caf61b1810b14c888eb2897a2497f9
 Proxy:			<none>
 Request params:	<none>
 Query params:	appid=23caf61b1810b14c888eb2897a2497f9
@@ -106,7 +106,7 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 404 Not Found
 Server: openresty
-Date: Thu, 08 Jul 2021 17:04:20 GMT
+Date: Tue, 13 Sep 2022 17:43:14 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 45
 Connection: keep-alive

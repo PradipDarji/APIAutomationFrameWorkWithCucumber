@@ -5,6 +5,8 @@ public enum APIResources {
 	AddStationAPI("/stations"),
 	getStationAPI("/stations/"),
 	deleteStationAPI("/stations/");
+	
+
 	private String resource;
 	
 	APIResources(String resource)
